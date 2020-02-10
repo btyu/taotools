@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="taotools-happyctest", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="HappyCtest",
     author_email="happyctest@foxmail.com",
     description="Small tools for more easy-use Python by HappyCtest. Evolving...",

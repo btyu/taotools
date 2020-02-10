@@ -1,6 +1,9 @@
 README.md
 setup.py
 taotools/__init__.py
+taotools/file/__init__.py
+taotools/file/file_operations.py
+taotools/file/pickle.py
 taotools_happyctest.egg-info/PKG-INFO
 taotools_happyctest.egg-info/SOURCES.txt
 taotools_happyctest.egg-info/dependency_links.txt

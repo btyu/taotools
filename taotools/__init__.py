@@ -1,2 +1,1 @@
-def start():
-    print("import successfully")
+from . import file
