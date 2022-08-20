@@ -3,7 +3,7 @@ import os
 from .file_operations import ensure_dirs
 
 
-def pdump(obj: object, path: str) -> None:
+def pickle_save(obj: object, path: str) -> None:
     """
     Dump an object as a file with pickle. The folder will be created if not existed.
     :param path: path where the file should be saved.
@@ -16,7 +16,7 @@ def pdump(obj: object, path: str) -> None:
         pickle.dump(obj, f)
 
 
-def pload(path: str) -> object:
+def pickle_load(path: str) -> object:
     """
     Load an object from file with pickle.
     :param path: the file path to load.
